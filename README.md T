@@ -1,0 +1,80 @@
+# NoNet: The Offline, Privacy-First AI Assistant 🚀
+
+![Project Banner](https://i.imgur.com/your-project-banner-image-url.png) <!-- Optional: Create a cool banner image -->
+
+NoNet is an offline, privacy-first AI assistant powered by a quantized gpt-oss model. It runs entirely on your local device, ensuring that your data remains 100% private. It can handle text and voice, adapts to specific domains like healthcare or education, and works without any internet connection.
+
+---
+
+
+
+### ✨ Key Features
+
+*   **100% Offline:** Works without any internet access.
+*   **Privacy-First:** All user data is encrypted with AES-256 and never leaves your device.
+*   **Voice Interaction:** Talk to the assistant using offline speech-to-text (VOSK) and text-to-speech (Coqui TTS).
+*   **Domain Adaptable:** Easily extendable with custom "domain packs" for specialized knowledge.
+*   **Cross-Platform:** Runs on Linux, Windows, and even low-powered devices like a Raspberry Pi.
+
+---
+
+### 🛠️ Tech Stack
+
+*   **Programming Language:** Python
+*   **AI Model:** Quantized `gpt-oss` model via PyTorch
+*   **Speech-to-Text:** VOSK (Offline)
+*   **Text-to-Speech:** Coqui TTS
+*   **Local UI:** Flask
+*   **Encryption:** AES-256
+*   **Platforms:** Raspberry Pi, Linux, Windows
+
+---
+
+### ⚙️ Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+#### Prerequisites
+
+*   Python 3.9+
+*   FFmpeg (for audio processing)
+    *   [Installation guide for FFmpeg](https://ffmpeg.org/download.html)
+
+#### Installation
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/your-username/NoNet-Offline-AI.git
+    cd NoNet-Offline-AI
+    ```
+
+2.  **Create and activate a virtual environment:**
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+    ```
+
+3.  **Install the required libraries:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+4.  **Download necessary models:**
+    *(Note: You may need to add instructions here for downloading the VOSK and gpt-oss models if they aren't included in the repo).*
+
+5.  **Run the application:**
+    ```sh
+    python app.py
+    ```
+
+---
+
+### 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/NoNet-Offline-AI/issues).
+
+---
+
+### 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
